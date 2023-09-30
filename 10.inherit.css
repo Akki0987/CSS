@@ -1,0 +1,30 @@
+/* Here we will give properties to the div only and its child elements will adopt its properties or properties will be inherited by its child elements  */
+/* div{
+    background-color: blue;
+    color: white;
+}
+p{
+    background-color: green;
+    color: white;
+} */
+/* now the ul and li elements will inherit the properties of its parent element <p>  */
+
+div{
+    background-color: yellow;
+}
+
+/* All elements will inherit the divs property and apper yellow  */
+
+form{
+    background-color: green;
+}
+
+/* here label will inherit its parents property and will appear green  */
+
+/* Input boxes by default doesnt inherit properties so it will not be changed  */
+
+input{
+    background-color: inherit;
+}
+
+/* if we want to inherit than we have to set its property to inherit in css here it inherited its parent forms green bgcolor propertry */

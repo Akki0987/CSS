@@ -1,0 +1,4 @@
+/* According to cascade property in the cascade.html document the later attached stylesheet 8.style.css will serve its propertie */
+h3{
+    background-color: green;
+}

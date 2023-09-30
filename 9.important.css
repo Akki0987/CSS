@@ -1,0 +1,7 @@
+/* !important is used when we want to highly prioritize a css property so that in future it cannot be changed furthur */
+
+/* Its priority is greater than >inline css>id>class>element */
+
+h3{
+    background-color: blue !important;
+}

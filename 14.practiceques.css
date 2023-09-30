@@ -1,0 +1,26 @@
+#outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    background-color: black;
+}
+
+#inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#inner.one{
+    background-color: red;
+}
+
+#inner.two{
+    background-color: yellow;
+}
+
+#inner.three{
+    background-color: green;
+}

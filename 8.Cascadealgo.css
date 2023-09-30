@@ -1,0 +1,15 @@
+h3{
+    background-color: blue;
+    font-weight: bold;
+}
+
+h3{
+    background-color: yellow;
+    font-weight: bold;
+}
+/* According to cascade algorithm the last css property will be applied to h3. */
+h3{
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
